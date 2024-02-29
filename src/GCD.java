@@ -11,11 +11,12 @@ public class GCD {
         int min = min (x,y);
         int max = max (x,y);
         int gcd = 1;
-        int i;
-        for (i = 2; i <= min ; i++) {
-            // System.out.println("i="+i);
+       
+        for (int i = min; i > 1 ; i--) {
+            System.out.println("i="+i);
             if (min%i==0 && max%i==0){
                 gcd = i;
+                break;
             }
         }
         System.out.println(gcd);
