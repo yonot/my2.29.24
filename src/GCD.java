@@ -4,9 +4,9 @@ import static java.lang.Math.min;
 public class GCD {
 
     public static void main(String[] args) {
-
-        int x=102;
-        int y=100;
+// qwerty
+        int x=200;
+        int y=31;
 
         int min = min (x,y);
         int max = max (x,y);
